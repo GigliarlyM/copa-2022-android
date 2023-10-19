@@ -7,7 +7,7 @@ Para facilitar a dinâmica de integração do nosso App, criamos uma Pseudo-API 
 ## Desafio de Projeto (Lab) 😎
 
 1. :white_check_mark: Explore o projeto base e entenda seus módulos e responsabilidades:
-    * **app**: Contém as classes de nível de aplicativo e scaffolding que vinculam o restante da base de código.O módulo "app" depende de todos os módulos de recursos e módulos principais necessários;
+    * **app**: Contém as classes de nível de aplicativo e scaffolding que vinculam o restante da base de código. O módulo "app" depende de todos os módulos de recursos e módulos principais necessários;
     * **data**: abstração para o acesso à fontes de dados, organizada da seguinte forma:
         * ***data***: Neste módulo são declarados os DataSources "remote" e "local", bem como a implementação dos repositórios de acordo com a lógica de negócio necessária;
         * ***local***: Contém uma implementação do [Room](https://developer.android.com/training/data-storage/room) como fonte de dados local;
